@@ -109,6 +109,17 @@ namespace LoopsPractice
             //    Console.WriteLine(artist);
             //}
 
+            // while loop - When to use a while loop
+            // when you want a chunk of code to run only if a condition is met first
+            // WHILE something is TRUE
+
+            Console.WriteLine("what is your first name?");
+            String firstName = Console.ReadLine();
+            while (firstName.ToUpper() == "ROBERT") 
+            {
+                Console.WriteLine("dude you are amazing! ");
+                break;
+            }
 
 
 
