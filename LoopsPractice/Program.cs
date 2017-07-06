@@ -66,13 +66,13 @@ namespace LoopsPractice
             //determine the product (multiplication) of 1 through 10 using a For loop
             //print the product to the screen
 
-            int product = 1;
-            for(int i = 1; i <=10; i++)
-            {
-                product = (product *i);
-            }
-            Console.WriteLine(product);
-
+            //int product = 1;
+            //for(int i = 1; i <=10; i++)
+            //{
+            //    product = product *i;
+            //}
+            //Console.WriteLine(product);
+            //// or
             //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             //int product = numbers[0];
             //for (int i = 0; i < numbers.Length; i++)
@@ -80,6 +80,43 @@ namespace LoopsPractice
             //    product = product * numbers[i];
             //}
             //Console.WriteLine(product);
+
+            //Foreach Loop - used to iterate over a collection (ex. list or array)
+            //you can think of a structure of a foreach loop as a the statement:
+            //for each item in the collection, do something
+            //int[] studentGrades = { 4, 4, 3, 4, 3 };
+            //foreach (int grade in studentGrades)
+            //{
+            //    Console.WriteLine(grade);
+            //}
+
+            //string[] firstMonths = { "Jan", "Feb", "Mar", "Apr", "May", "June" };
+            ////always start with the keyword foreach
+            //foreach(string month in firstMonths)
+            //{
+            //    Console.WriteLine(month);
+            //}
+            //foreach loops allow temp variables to know to assign
+            //itself to each element in the collection (like an array), one at a time
+
+
+            //creat an array of 6 musicians
+            //using a foreach loop, print each musicians name
+
+            //string[] Musicians = { "acdc", "kiss", "beatles", "ffdp", "bad company", "rise against" };
+            //foreach(String artist in Musicians)
+            //{
+            //    Console.WriteLine(artist);
+            //}
+
+
+
+
+
+
+
+
+
         }
     }
 }
