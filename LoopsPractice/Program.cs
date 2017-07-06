@@ -165,20 +165,65 @@ namespace LoopsPractice
             //ask the user if they have another class they would like to add their 
             //gpa calculation.
             //using a do-while loop, repeat the code if the user says "YES"
+            ////string classOne;
+            ////string gradeLetter;
+            ////string classTwo;
 
-            do
-            {
-                Console.WriteLine("Would you like to add your GPA calculation? YES?NO");
-                string classOne = Console.ReadLine();
-                Console.WriteLine("What is the letter grade for the class?");
-                string gradeLetter = Console.ReadLine();
-                Console.WriteLine("Do you have another class you would like to add? YES/NO");
-                string classTwo = Console.ReadLine();
-            }
-            
+            ////do
+            ////{ 
+            ////Console.WriteLine("Would you like to add a class to your GPA calculation? YES/NO");
+            ////    classOne = Console.ReadLine().ToLower();
+            ////Console.WriteLine("What is the letter grade for the class?");
+            ////    gradeLetter = Console.ReadLine();
+            ////Console.WriteLine("Do you have another class you would like to add? YES/NO");
+            ////    classTwo = Console.ReadLine();
+            ////Console.WriteLine();
+            ////}
+            ////while (classOne == "yes");
 
+
+            //nested loop
+            //a loop inside another loop
+            //the inner loop is exectuted more times than outer loop
+
+
+            //create as nested loop structure that prints
+            // 1234
+            // 1234
+
+            //for (int rows = 1; rows <= 2; rows++) 
+            //{
+            //    for (int columns = 1; columns <= 4; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //    }
+
+            //print a triangle
+            //outer loop will go line by line
+            //inner loop will go over different elemnets in the line
+            //result should look like:
+            //1
+            //12
+            //123
+            //1234....
+
+            //for (int rows = 1; rows <= 4; rows++)
+            //{
+            //    for (int columns = 1; columns <= rows; columns++)
+            //    {
+            //        Console.Write(columns);
+            //    }
+            //    Console.WriteLine();
+            //    {
+
+            //ask user how many rows they want
+            //int n = int.Parse(Console.ReadLine());
+            //for(int row= 1; row<=  n; row++
 
 
         }
+
     }
 }
