@@ -199,6 +199,8 @@ namespace LoopsPractice
             //    }
             //    Console.WriteLine();
             //    }
+
+
             //Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
             //int multNum = 1;
             //Console.WriteLine("enter your first number");
@@ -211,12 +213,12 @@ namespace LoopsPractice
             //    for(int j = 1; j <= secondNum; j++)
             //    {
             //        Console.Write(multNum * j + " ");
-                   
+
             //    }
             //    multNum += 1;
             //    Console.WriteLine();
-              
-            }
+
+            //}
             //print a triangle
             //outer loop will go line by line
             //inner loop will go over different elemnets in the line
@@ -307,6 +309,39 @@ namespace LoopsPractice
             //foreach (int num in luckyNumbers)
             //    Console.WriteLine("Your Lucky Number Is: " + num);
 
+
+            //    Create an array of your favorite movies.Print out each movie in the list,
+            //    unless the move starts with a vowel. Hint: Research.startsWith()
+
+
+            //string[] favMovies = { "Old School", "Star Wars", "Anchorman", "Replacements", "Avatar", "Super Troopers" };
+            //foreach (string movie in favMovies)
+            //{
+            //    if (movie.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    else if (movie.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(movie);
+            //    }
+            //}
         }
 
     }
