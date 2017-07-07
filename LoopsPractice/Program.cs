@@ -165,21 +165,21 @@ namespace LoopsPractice
             //ask the user if they have another class they would like to add their 
             //gpa calculation.
             //using a do-while loop, repeat the code if the user says "YES"
-            ////string classOne;
-            ////string gradeLetter;
-            ////string classTwo;
+            //string classone;
+            //string gradeletter;
+            //string classtwo;
 
-            ////do
-            ////{ 
-            ////Console.WriteLine("Would you like to add a class to your GPA calculation? YES/NO");
-            ////    classOne = Console.ReadLine().ToLower();
-            ////Console.WriteLine("What is the letter grade for the class?");
-            ////    gradeLetter = Console.ReadLine();
-            ////Console.WriteLine("Do you have another class you would like to add? YES/NO");
-            ////    classTwo = Console.ReadLine();
-            ////Console.WriteLine();
-            ////}
-            ////while (classOne == "yes");
+            //do
+            //{
+            //    Console.WriteLine("would you like to add a class to your gpa calculation? yes/no");
+            //    classone = Console.ReadLine().ToLower();
+            //    Console.WriteLine("what is the letter grade for the class?");
+            //    gradeletter = Console.ReadLine();
+            //    Console.WriteLine("do you have another class you would like to add? yes/no");
+            //    classtwo = Console.ReadLine();
+            //    Console.WriteLine();
+            //}
+            //while (classone == "yes");
 
 
             //nested loop
@@ -199,7 +199,14 @@ namespace LoopsPractice
             //    }
             //    Console.WriteLine();
             //    }
+            //Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
 
+            //for (int i = 5; i <= 5;  i++)
+            //{
+            //    for (int j = 5; j <= i; j++) 
+            //    {
+            //        Console.WriteLine(i*j);
+            //    }
             //print a triangle
             //outer loop will go line by line
             //inner loop will go over different elemnets in the line
@@ -253,9 +260,51 @@ namespace LoopsPractice
             //    else
             //    {
             //        Console.WriteLine(i);
-                //}
+            //}
 
-            }
+            // Write a program that takes your favorite foods and prints them out one at a time. (Use a foreach loop.)
 
-    }
-}
+            //string[] favoriteFoods = { "pizza", "burritos", "chips" };
+
+            //foreach (string food in favoriteFoods )
+            //{
+            //    Console.WriteLine(food);
+            //}
+
+            //Write a console application that asks the user for an integer. If that integer is evenly divisible by 3
+            //then write “You Won!” If it isn’t,
+            //write “You Lost.” Keep asking them for a number (looping) until they win.
+
+
+            //Console.WriteLine("please input an integer!");
+            //string number = Console.ReadLine();
+
+
+            //for (number % 3; i == 3; i++)
+            //{
+            //    Console.WriteLine("you won");
+            //}
+            //else if (number % number == 1)
+
+            //    Console.WriteLine("you lost");
+
+
+
+            // Create an array of lucky numbers(just any numbers you like). Using a foreach loop, print the following:
+            // If the array holds the numbers 3, 5, 7, 11, 15, then the printed result should say. your lucky number is ...
+
+            //int[] luckyNumbers = { 3,5,7,11,15 };
+            //foreach (int num in luckyNumbers)
+            //    Console.WriteLine("Your Lucky Number Is: " + num);
+
+         }
+
+    
+      }
+   }
+    
+       
+    
+
+   
+     
