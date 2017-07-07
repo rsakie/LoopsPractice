@@ -200,13 +200,23 @@ namespace LoopsPractice
             //    Console.WriteLine();
             //    }
             //Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
+            //int multNum = 1;
+            //Console.WriteLine("enter your first number");
+            //int firstNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("enter second number");
+            //int secondNum = int.Parse(Console.ReadLine());
 
-            //for (int i = 5; i <= 5;  i++)
+            //for(int i = 1; i <= firstNum; i++)
             //{
-            //    for (int j = 5; j <= i; j++) 
+            //    for(int j = 1; j <= secondNum; j++)
             //    {
-            //        Console.WriteLine(i*j);
+            //        Console.Write(multNum * j + " ");
+                   
             //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+              
+            }
             //print a triangle
             //outer loop will go line by line
             //inner loop will go over different elemnets in the line
@@ -297,14 +307,14 @@ namespace LoopsPractice
             //foreach (int num in luckyNumbers)
             //    Console.WriteLine("Your Lucky Number Is: " + num);
 
-         }
+        }
 
-    
-      }
-   }
-    
-       
-    
+    }
+}
 
-   
-     
+
+
+
+
+
+
