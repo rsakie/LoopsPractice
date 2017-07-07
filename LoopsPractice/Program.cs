@@ -287,9 +287,27 @@ namespace LoopsPractice
             //then write “You Won!” If it isn’t,
             //write “You Lost.” Keep asking them for a number (looping) until they win.
 
+            //i know i need to ask user for an integer, get input and save it
 
+            Console.WriteLine("please enter an integer (whole number).");
+            int userNum = int.Parse(Console.ReadLine());
+            //"evenly divisible" is a good indicator of modulus
+            //we have to check if the input % 3
+            //we need a conditional and if the input % 3 == 0 we need to write "you won" and exit the loop
+            //if their input % 3 is not equal to zero, have to let them know they lost and ask them for another integer
+            //repeat this, until they win
+
+       
+           
+            while(userNum % 3 != 0)
+            {
+                Console.WriteLine("you lost");
+                Console.WriteLine("please enter another integer");
+                userNum = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("you won");
             //Console.WriteLine("please input an integer!");
-            //string number = Console.ReadLine();
+            //int number = int.Parse(Console.ReadLine());
 
 
             //for (number % 3; i == 3; i++)
@@ -342,6 +360,8 @@ namespace LoopsPractice
             //        Console.WriteLine(movie);
             //    }
             //}
+
+
         }
 
     }
