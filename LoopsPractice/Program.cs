@@ -289,41 +289,27 @@ namespace LoopsPractice
 
             //i know i need to ask user for an integer, get input and save it
 
-            Console.WriteLine("please enter an integer (whole number).");
-            int userNum = int.Parse(Console.ReadLine());
+            //Console.WriteLine("please enter an integer (whole number).");
+            //int userNum = int.Parse(Console.ReadLine());
+
             //"evenly divisible" is a good indicator of modulus
             //we have to check if the input % 3
             //we need a conditional and if the input % 3 == 0 we need to write "you won" and exit the loop
             //if their input % 3 is not equal to zero, have to let them know they lost and ask them for another integer
             //repeat this, until they win
 
-       
-           
-            while(userNum % 3 != 0)
-            {
-                Console.WriteLine("you lost");
-                Console.WriteLine("please enter another integer");
-                userNum = int.Parse(Console.ReadLine());
-            }
-            Console.WriteLine("you won");
-            //Console.WriteLine("please input an integer!");
-            //int number = int.Parse(Console.ReadLine());
-
-
-            //for (number % 3; i == 3; i++)
+            //while(userNum % 3 != 0)
             //{
-            //    Console.WriteLine("you won");
-            //}
-            //else if (number % number == 1)
-
             //    Console.WriteLine("you lost");
+            //    Console.WriteLine("please enter another integer");
+            //    userNum = int.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("you won");
 
+            //Create an array of lucky numbers(just any numbers you like). Using a foreach loop, print the following:
+            //If the array holds the numbers 3, 5, 7, 11, 15, then the printed result should say. your lucky number is ...
 
-
-            // Create an array of lucky numbers(just any numbers you like). Using a foreach loop, print the following:
-            // If the array holds the numbers 3, 5, 7, 11, 15, then the printed result should say. your lucky number is ...
-
-            //int[] luckyNumbers = { 3,5,7,11,15 };
+            //int[] luckyNumbers = { 3, 5, 7, 11, 15 };
             //foreach (int num in luckyNumbers)
             //    Console.WriteLine("Your Lucky Number Is: " + num);
 
@@ -360,6 +346,42 @@ namespace LoopsPractice
             //        Console.WriteLine(movie);
             //    }
             //}
+
+
+            //write an application that asks the user for word or phrase,
+            //print the number of each vowels in that word to the console
+            //output: "your phrase has __ a's
+            //       " your phrase has __e's
+            //        etc
+
+
+            //Console.WriteLine("Please enter a word or phrase.");
+            //string[] word = { Console.ReadLine() };
+            //int vowelCount = 0;
+            //foreach(char vowel in word)
+
+
+            //Ask the user if he / she / they would like to check the patient in for his / her / their appointment
+            //Console.WriteLine("Would you like to check in for you appt?");
+            //string answer = Console.ReadLine();
+            
+            //    //Using a While Loop, run the following sequence only if the user's answer is not YES
+            //while (answer == "yes")
+            //{
+            //    //Print "PATIENT CHECK IN SYSTEM"
+            //    //Ask the user for the client's full name
+            //    Console.WriteLine("PATIENT CHECK IN SYSTEM");
+            //    Console.WriteLine("Whatis your full first name?");
+            //    string fName = Console.ReadLine();
+            //    Console.WriteLine("What is your 6-digit patient id number?");
+            //    Console.ReadLine();
+            //    Console.WriteLine("What is you appointment time?");
+            //    int time = int.Parse(Console.ReadLine());
+             //Ask the user for the client's 6-digit patient ID
+                //Ask the user for the client's appointment time (i.e. 2:00 PM)
+                //Ask the user if he / she / they would like to check the patient in for his / her / their appointment
+            //}
+
 
 
         }
